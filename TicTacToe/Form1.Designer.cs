@@ -151,6 +151,7 @@
             this.btn_info.Size = new System.Drawing.Size(75, 75);
             this.btn_info.TabIndex = 0;
             this.btn_info.UseVisualStyleBackColor = true;
+            this.btn_info.Click += new System.EventHandler(this.btn_info_Click);
             // 
             // btn_clear
             // 

@@ -14,6 +14,7 @@ namespace TicTacToe
     {
         bool xTurn = true;
         bool hasWinner = false;
+        int counter = 0;
 
         public Form1()
         {
@@ -40,11 +41,16 @@ namespace TicTacToe
             button.Text = (xTurn) ? "X" : "O";
             button.ForeColor = (xTurn) ? Color.Blue : Color.Red;
             xTurn = !xTurn;
+            counter++;
             hasWinner = IsWinner(button.Name);
 
             if (hasWinner)
             {
                 MessageBox.Show("The player " + button.Text + " is the winner");
+            }
+            else if(counter == 9)
+            {
+                MessageBox.Show("Draw!");
             }
         }
 
@@ -53,7 +59,7 @@ namespace TicTacToe
             switch (buttonName)
             {
                 case "A1":
-                    if((A1.Text == A2.Text && A1.Text == A3.Text) || (A1.Text == B2.Text && A1.Text == C2.Text) || (A1.Text == B1.Text && A1.Text == C1.Text))
+                    if((A1.Text == A2.Text && A1.Text == A3.Text) || (A1.Text == B2.Text && A1.Text == C3.Text) || (A1.Text == B1.Text && A1.Text == C1.Text))
                     {
                         return true;
                     }
@@ -113,6 +119,7 @@ namespace TicTacToe
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
+            counter = 0;
             hasWinner = false;
             xTurn = true;
             foreach (Control c in this.Controls)
@@ -123,6 +130,11 @@ namespace TicTacToe
                     button.BackColor = Color.White;
                 }
             }
+        }
+
+        private void btn_info_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tic-Tac-Toe made by Jin Chen");
         }
     }
 }

@@ -18,3 +18,13 @@ G:\Repository\College\TicTacToe_SRC\TicTacToe\obj\Debug\TicTacToe.csproj.Generat
 G:\Repository\College\TicTacToe_SRC\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
 G:\Repository\College\TicTacToe_SRC\TicTacToe\obj\Debug\TicTacToe.exe
 G:\Repository\College\TicTacToe_SRC\TicTacToe\obj\Debug\TicTacToe.pdb
+E:\Repositorio\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+E:\Repositorio\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+E:\Repositorio\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Form1.resources
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+E:\Repositorio\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
